@@ -1,0 +1,26 @@
+.DS_Store
+.idea/
+.idea/*
+.vscode
+*.sublime*
+npm-degug.*
+
+# архивы
+*.zip
+*.rar
+
+# папка выхода
+dist/
+
+# минимизированные файлы
+app/css/style.min.css
+app/js/main.min.js
+
+# папка макетов
+maket/
+
+# папка плагинов
+node_modules/
+
+# локальные настройки
+package-lock.json

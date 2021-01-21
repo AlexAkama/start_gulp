@@ -1,3 +1,14 @@
+// FOCUS-VISIBLE
+// скрываем фокусные стили, если используется не клавиатура
+.js-focus-visible button:focus:not(.focus-visible) {
+    // удаляем|oтменяем|обнуляем примененые к :focus стили
+}
+
+section {
+    padding: 100px 0;
+    min-height: 50vh;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1170px;

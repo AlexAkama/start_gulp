@@ -1,3 +1,13 @@
+body {
+    *.hide {
+        display: none;
+    }
+
+    *.invisible {
+        opacity: 0;
+    }
+}
+
 // FOCUS-VISIBLE
 // скрываем фокусные стили, если используется не клавиатура
 .js-focus-visible button:focus:not(.focus-visible) {
